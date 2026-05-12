@@ -1,0 +1,6 @@
+.main { flex: 1; padding: 1.5rem; overflow-y: auto; }
+.board { display: flex; gap: 1rem; align-items: flex-start; }
+.column { background: white; min-width: 300px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 1rem; }
+.colTitle { font-size: 1rem; margin-bottom: 1rem; color: #333; }
+.card { background: #f9f9f9; padding: 0.75rem; border-radius: 4px; margin-bottom: 0.5rem; box-shadow: 0 1px 2px rgba(0,0,0,0.05); cursor: pointer; transition: background 0.2s; }
+.card:hover { background: #e0e0e0; }
